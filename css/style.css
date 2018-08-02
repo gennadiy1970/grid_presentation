@@ -43,6 +43,7 @@ img[src="pictures/area.jpg"] {
 }
 
 .red { color: red; }
+.upper {  text-transform: uppercase;}
 
 .grid-container {
   display: grid;
@@ -85,3 +86,17 @@ img[src="pictures/area.jpg"] {
 
 .h4-grid {   top: 185px; }
 .h4-inline { top: 405px; }
+
+.comment {
+  color: grey;
+  font-size: 16px;
+}
+
+.flex-wrp {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-wrp p {
+  margin-left: 2rem;
+  text-indent: 2rem;
+}
